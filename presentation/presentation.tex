@@ -21,7 +21,8 @@
 \usecolortheme{dove}
 
 \setbeamertemplate{footline}[page number]
-\setbeamertemplate{caption}[numbered]
+%\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption}{\insertcaption}
 }
 
 \usepackage{graphicx} % Allows including images
@@ -35,7 +36,7 @@
   образовательной платформы}
 \author{Алексей Кладов\\
   { \footnotesize \textcolor{gray}{группа 545\\ руководитель Вяххи Н. И.}}}
-\institute[СПбГУ]{Санк-Петербургский Государственный Университет}
+\institute[СПбГУ]{Санкт-Петербургский государственный университет}
 \date{\today} % Date, can be changed to a custom date
 
 \begin{document}
@@ -63,7 +64,7 @@
     \begin{itemize}
     \item Linux
     \item Python 3, django, celery, codejail
-    \item django\textbf{rest}framework
+    \item Django \textbf{REST} framework
     \item CoffeeScript, Ember
     \end{itemize}
   \end{columns}
@@ -78,12 +79,12 @@
 \end{frame}
 
 \begin{frame}{Постановка задачи}
-  Реализация \underline{расширяемой} системы для создания и проверки упражнений
+  Реализовать \underline{расширяемую} систему для создания и проверки упражнений
   для образовательной платформы Stepic.
 
   \medskip
 
-  Задачи
+  Подзадачи
   \begin{itemize}
   \item Набор часто встречающихся типов упражнений.
   \item API для расширения набора типов упражнений
@@ -130,7 +131,7 @@
     Клиент
     \begin{itemize}
     \item Handlebars
-    \item JavaScript / простые функции
+    \item JavaScript
     \item CoffeeScript / Ember компоненты
     \end{itemize}
   \end{columns}
@@ -146,7 +147,7 @@
 
 \begin{frame}{Изоляция и масштабирование}
   \begin{itemize}
-  \item Расширение codejail(мультиязычность, сообщения об ошибках,
+  \item Расширение codejail (мультиязычность, сообщения об ошибках,
     коммуникация...)
   \item Создание профилей apparmor.
   \item Масштабируемость при помощи celery.
