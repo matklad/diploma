@@ -1,8 +1,9 @@
-FIELS="diploma.tex diploma.bib matmex-diploma-custom.cls"
-cp $FIELS img/* res/* tmp
+set -e
+cp "diploma.tex" img/* res/* tmp
 cd tmp
-xelatex diploma.tex
-xelatex diploma.tex
+xelatex --halt-on-error diploma.tex
+xelatex --halt-on-error diploma.tex
 cd ..
 mv tmp/diploma.pdf .
+killall okular || true
 xdg-open diploma.pdf
