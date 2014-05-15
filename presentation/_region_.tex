@@ -1,4 +1,4 @@
-%!TEX TS-program = xelatex
+\message{ !name(presentation.tex)}%!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 
 \documentclass{beamer}
@@ -41,6 +41,9 @@
 
 \begin{document}
 
+\message{ !name(presentation.tex) !offset(-3) }
+
+
 \begin{frame}
 \titlepage % Print the title page as the first slide
 \end{frame}
@@ -55,15 +58,15 @@
     \begin{itemize}
     \item 2013 год
     \item 23000 студентов
-    \item 2 куса на Coursera
-    \item курсы CS Center
+    \item 2 курса на coursera
+    \item курсы CS center
     \end{itemize}
 
     \column{.5\textwidth}
     Технологии
     \begin{itemize}
     \item Linux
-    \item Python 3, Django, Celery, Codejail
+    \item Python 3, django, celery, codejail
     \item Django \textbf{REST} framework
     \item CoffeeScript, Ember
     \end{itemize}
@@ -86,20 +89,12 @@
 
   Подзадачи
   \begin{itemize}
-  \item Разработать фреймворк для расширения набора типов упражнений
+  \item Набор часто встречающихся типов упражнений.
+  \item API для расширения набора типов упражнений
     сторонними разработчиками.
-  \item Реализовать с помощью фреймворка часто встречающиеся типы упражнений.
-  \item Обеспечить масштабируемое и изолированное исполнение
-    потенциально небезопасного кода упражнений.
+  \item Масштабируемое и изолированное исполнение потенциально не
+    безопасного кода упражнений.
   \end{itemize}
-\end{frame}
-
-\begin{frame}{Фреймворк}
-  \begin{figure}
-    \includegraphics[width=0.8\textwidth]{../res/arch.pdf}
-    \caption{Архитектура решения}
-  \end{figure}
-
 \end{frame}
 
 \begin{frame}{Примеры типов упражнений}
@@ -114,33 +109,62 @@
     \item Number
     \item Sorting
     \item \underline{String}
-    \item \textbf{Admin}
     \end{itemize}
     Используются в текущих курсах!
     \column{.5\textwidth}
     \begin{figure}
       \includegraphics[width=\textwidth]{../res/quiz.png}
-      \caption{Пример упражнения (Code)}
+      \caption{Пример упражнения (code)}
+      \label{fig:1}
     \end{figure}
   \end{columns}
 \end{frame}
 
+\begin{frame}{API}
+  \begin{columns}[t]
+    \column{.5\textwidth}
+    Сервер
+    \begin{itemize}
+    \item Python
+    \item JSON (eDSL для описания схем)
+    \item асинхронность
+    \end{itemize}
+
+    \column{.5\textwidth}
+    Клиент
+    \begin{itemize}
+    \item Handlebars
+    \item JavaScript
+    \item CoffeeScript / Ember компоненты
+    \end{itemize}
+  \end{columns}
+
+  \bigskip
+
+  Сервер для тестирования/разработки.
+
+  \medskip
+
+  Модуль упражнения от стороннего разработчика!
+\end{frame}
+
 \begin{frame}{Изоляция и масштабирование}
   \begin{itemize}
-  \item Расширение Codejail (мультиязычность, сообщения об ошибках,
+  \item Расширение codejail (мультиязычность, сообщения об ошибках,
     коммуникация...)
-  \item Создание профилей Apparmor.
-  \item Масштабируемость при помощи Celery.
-  \item Планы: управление конфигурациями.
+  \item Создание профилей apparmor.
+  \item Масштабируемость при помощи celery.
+  \item TODO: управление конфигурациями.
   \end{itemize}
 \end{frame}
 
 \begin{frame}{Результаты}
   \begin{itemize}
-  \item[\checkmark] Разработан фреймворк для создания новых типов упражнений.
-  \item[\checkmark] С помощью фреймворка реализовано 9 типов упражнений, которые успешно использованы
-    в крупных курсах. Один тип упражнения был разработан сторонним разработчиком.
-  \item[\checkmark] На основе Celery и Codejail создана система масштабируемого и
+  \item[\checkmark] Реализовано 9 типов упражнений, которые успешно использованы
+    в крупных курсах.
+  \item[\checkmark] Разработано API для создания новых типов упражнений. С его
+    помощью сторонним разработчиком создан новый тип упражнения.
+  \item[\checkmark] На основе celery и codejail создана система масштабируемого и
     безопасного исполнения кода.
   \end{itemize}
 \end{frame}
@@ -152,3 +176,4 @@
 %%% mode: latex
 %%% TeX-engine: xetex
 %%% End:
+\message{ !name(presentation.tex) !offset(-179) }

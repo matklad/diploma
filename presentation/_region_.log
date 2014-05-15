@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.11.11)  15 MAY 2014 16:33
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.11.11)  15 MAY 2014 13:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**presentation.tex
-(./presentation.tex
-LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+**\nonstopmode\nofiles\PassOptionsToPackage{active,tightpage,auctex}{preview}\A
+tBeginDocument{\ifx\ifPreview\undefined\RequirePackage[displaymath,floats,graph
+ics,textmath,sections,footnotes]{preview}[2004/11/05]\fi} \input _region_.tex
+(./_region_.tex  !name(presentation.tex)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/beamer/beamer.cls
 (/usr/local/texlive/2013/texmf-dist/tex/latex/beamer/beamerbasercs.sty
 Package: beamerbasercs 2013/01/04 (rcs-revision 9a97a4eee358)
@@ -1293,30 +1293,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 38.
 
-(./presentation.aux
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-. 
-. * 'normal' with NFSS spec.:
-. <->"DejaVu Sans/ICU:script=cyrl;language=DFLT;mapping=tex-text;"
-. 
-. * 'bold' with NFSS spec.:
-. <->"DejaVu Sans/B/ICU:script=cyrl;language=DFLT;mapping=tex-text;"
-. 
-. * 'italic' with NFSS spec.:
-. <->"DejaVu Sans/I/ICU:script=cyrl;language=DFLT;mapping=tex-text;"
-. 
-. * 'bold italic' with NFSS spec.:
-. <->"DejaVu Sans/BI/ICU:script=cyrl;language=DFLT;mapping=tex-text;"
-.................................................
-)
-\openout1 = `presentation.aux'.
-
+No file _region_.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
@@ -1337,11 +1314,38 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 42.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 42.
-
 (/usr/local/texlive/2013/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 42.
+
+(/Users/user/.emacs.d/elpa/auctex-11.87.3/latex/preview.sty
+Package: preview 2010-02-14 CVS-1.126 (AUCTeX/preview-latex)
+
+(/Users/user/.emacs.d/elpa/auctex-11.87.3/latex/prtightpage.def
+\PreviewBorder=\dimen291
+)
+(/Users/user/.emacs.d/elpa/auctex-11.87.3/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count282
+\hfuzz=\dimen292
+(/Users/user/.emacs.d/elpa/auctex-11.87.3/latex/prauctex.cfg))
+(/Users/user/.emacs.d/elpa/auctex-11.87.3/latex/prfootnotes.def)
+\pr@snippet=\count283
+\pr@box=\box72
+\pr@output=\toks47
+
+Preview: Fontsize 10.95pt
+Preview: PDFoutput 1
+)
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   -
+l.42 \begin{document}
+                     
+I was expecting to see `<', `=', or `>'. Didn't.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1378,7 +1382,7 @@ LaTeX Font Info:    ... okay on input line 42.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box72
+\AtBeginShipoutBox=\box73
 Package hyperref Info: Link coloring OFF on input line 42.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1387,15 +1391,14 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count282
+\c@section@level=\count284
 )
 LaTeX Info: Redefining \ref on input line 42.
 LaTeX Info: Redefining \pageref on input line 42.
 LaTeX Info: Redefining \nameref on input line 42.
 
-(./presentation.out) (./presentation.out)
-\@outlinefile=\write5
-\openout5 = `presentation.out'.
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 42.
@@ -1562,10 +1565,22 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 . [Mapping=tex-text,Script=Cyrillic].
 . 
 . This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"DejaVu Sans/ICU:script=cyrl;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold' with NFSS spec.:
+. <->"DejaVu Sans/B/ICU:script=cyrl;language=DFLT;mapping=tex-text;"
+. 
+. * 'italic' with NFSS spec.:
+. <->"DejaVu Sans/I/ICU:script=cyrl;language=DFLT;mapping=tex-text;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->"DejaVu Sans/BI/ICU:script=cyrl;language=DFLT;mapping=tex-text;"
 .................................................
-\c@lstlisting=\count283
+\c@lstlisting=\count285
 
-(./presentation.nav)
+No file _region_.nav.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1582,6 +1597,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 . 
 . This font family consists of the following shapes:
 .................................................
+ !name(presentation.tex) !offset(-3) 
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2174,718 +2190,96 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 . 
 . This font family consists of the following shapes:
 .................................................
- [1
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
 
-]
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-LaTeX Font Info:    Try loading font information for U+msa on input line 79.
+! Preview: Snippet 1 started.
+<-><->
+      
+l.82 \end{frame}
+                
+Not a real error.
 
+LaTeX Font Info:    Try loading font information for U+msa on input line 82.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 79.
+LaTeX Font Info:    Try loading font information for U+msb on input line 82.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
- [2
+Preview: Tightpage -32891 -32891 32891 32891
+! Preview: Snippet 1 ended.(263276+0x717621).
+<-><->
+      
+l.82 \end{frame}
+                
+Not a real error.
 
-]
+[1]
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -3526,1340 +2920,720 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 . 
 . This font family consists of the following shapes:
 .................................................
- [3
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
 
-]
-File: ../res/arch.pdf Graphic file (type QTm)
+! Preview: Snippet 2 started.
+<-><->
+      
+l.121 \end{frame}
+                 
+Not a real error.
 
-<use  "../res/arch.pdf" >
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
- [4
-
-]
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
 File: ../res/quiz.png Graphic file (type QTm)
- <use  "../res/quiz.png" >
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
-. [Mapping=tex-text,Script=Cyrillic].
-. 
-. This font family consists of the following shapes:
-.................................................
- [5
+<use  "../res/quiz.png" >
+! Preview: Snippet 2 ended.(11264540+0x10069274).
+<-><->
+      
+l.121 \end{frame}
+                 
+Not a real error.
 
-]
+[2]
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -5508,9 +4282,6 @@ File: ../res/quiz.png Graphic file (type QTm)
 . 
 . This font family consists of the following shapes:
 .................................................
- [6
-
-]
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -6151,22 +4922,6 @@ File: ../res/quiz.png Graphic file (type QTm)
 . 
 . This font family consists of the following shapes:
 .................................................
- [7
-
-]
-\tf@nav=\write6
-\openout6 = `presentation.nav'.
-
-\tf@toc=\write7
-\openout7 = `presentation.toc'.
-
-\tf@snm=\write8
-\openout8 = `presentation.snm'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
-
-(./presentation.aux
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -6175,19 +4930,1300 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
 . 
 . This font family consists of the following shapes:
 .................................................
-)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 148.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 148.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 148.
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'DejaVuSans(1)' created for font 'DejaVu Sans' with options
+. [Mapping=tex-text,Script=Cyrillic].
+. 
+. This font family consists of the following shapes:
+.................................................
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 172.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 172.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 172.
  )
 (\end occurred when \ifx on line 31 was incomplete) 
 Here is how much of TeX's memory you used:
- 33766 strings out of 493938
- 666236 string characters out of 6148856
- 700507 words of memory out of 5000000
- 36433 multiletter control sequences out of 15000+600000
- 9361 words of font info for 85 fonts, out of 8000000 for 9000
+ 33896 strings out of 493938
+ 668148 string characters out of 6148856
+ 703012 words of memory out of 5000000
+ 36559 multiletter control sequences out of 15000+600000
+ 9369 words of font info for 86 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 49i,16n,63p,947b,813s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,16n,63p,1164b,816s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on presentation.pdf (7 pages).
+Output written on _region_.pdf (2 pages).

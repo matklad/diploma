@@ -1,5 +1,7 @@
-(TeX-add-style-hook "presentation"
+(TeX-add-style-hook "_region_"
  (lambda ()
+    (LaTeX-add-labels
+     "fig:1")
     (TeX-run-style-hooks
      "booktabs"
      "listings"
