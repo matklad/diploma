@@ -1,7 +1,7 @@
 set -e
 rm -r res/auto || true
 rm tmp/* || true
-cp "diploma.tex" img/* res/* tmp
+cp "diploma.tex" res/* tmp
 cd tmp
 xelatex --halt-on-error diploma.tex
 bibtex diploma.aux
