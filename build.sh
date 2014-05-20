@@ -1,7 +1,7 @@
 set -e
 rm -r res/auto || true
 rm tmp/* || true
-cp "diploma.tex" res/* tmp
+cp "diploma.tex" res/* tmp/
 cd tmp
 xelatex --halt-on-error diploma.tex
 bibtex diploma.aux
@@ -10,4 +10,4 @@ xelatex --halt-on-error diploma.tex
 cd ..
 mv tmp/diploma.pdf .
 killall okular || true
-xdg-open diploma.pdf
+xdg-open diploma.pdf || open diploma.pdf
